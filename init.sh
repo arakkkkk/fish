@@ -2,7 +2,6 @@
 sudo apt install -y \
   fish \
   make \
-  starship \
   rg \
   ghq \
   lazydocker
@@ -13,3 +12,6 @@ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 fisher install jethrokuan/z
 fisher install jethrokuan/fzf
 fisher install decors/fish-ghq
+
+## install starship
+curl -sS https://starship.rs/install.sh | sh

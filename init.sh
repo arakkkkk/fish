@@ -4,6 +4,7 @@ sudo apt install -y \
   fish \
   starship \
   rg \
+  ghq \
   lazydocker
 
 ## for fish shell

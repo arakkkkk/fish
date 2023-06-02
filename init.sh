@@ -1,7 +1,7 @@
 #sudo apt update
 sudo apt install -y \
-  make \
   fish \
+  make \
   starship \
   rg \
   ghq \

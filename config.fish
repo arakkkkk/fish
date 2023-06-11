@@ -1,5 +1,8 @@
-starship init fish | source
 z -c
+function history-merge --on-event fish_preexec
+  history --save
+  history --merge
+end
 
 # pyenv path
 status is-interactive; and pyenv init --path | source
@@ -43,3 +46,4 @@ alias ide="sh ~/.config/tmux/ide.sh"
 # For ratate monitor
 # xrandr --output HDMI-A-0 --rotate normal
 # xrandr --output DisplayPort-0 --pos 0x0 --output HDMI-A-0 --pos -1920x0
+

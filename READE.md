@@ -2,6 +2,7 @@
 ## Instration
 ```sh
 git clone https://github.com/arakkkkk/fish
-sh init.sh
+sudo chmod 755 init.sh
+. init.sh
 chsh -s /usr/bin/fish
 ```
